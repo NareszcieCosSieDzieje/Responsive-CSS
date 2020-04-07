@@ -76,7 +76,7 @@ body{
 
 
 #main {
-  display: flex; /* or inline-flex */
+  display: flex; 
   flex-direction: row;
   padding:15px;
   margin:15px;
@@ -111,11 +111,23 @@ body{
 	background-color: lightgrey;
 	border-top: 2px solid black;
 	margin-top: 15px;
- 	display: flex; /* or inline-flex */
+ 	display: flex; 
   	flex-direction: column;
   	align-items: center;
   	justify-content: center;
 	flex-shrink: 0;
+	margin: 0;
+  	padding: 0;
+}
+
+body {
+	margin: 0;
+  	padding: 0;
+}
+
+html{
+	margin: 0;
+  	padding: 0;
 }
 
 #footer p {
@@ -145,7 +157,6 @@ a[href^="https"]{
 }
 
 #burgerLine {
-	/*visibility: hidden;*/
 	height: 4px;
 	width: 50px;
 	background-color: black;
